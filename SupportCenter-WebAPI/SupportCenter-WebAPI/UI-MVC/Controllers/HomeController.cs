@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SC.UI.Web.MVC.Models;
@@ -38,6 +40,16 @@ namespace SC.UI.Web.MVC.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
+        }
+
+        public IActionResult SetCulture(string culture){
+            CultureInfo ci = CultureInfo.GetCultureInfo(culture);
+            Resources.Resources.Culture = ci;
+            
+            Console.WriteLine(CultureInfo.CurrentCulture.Name);
+            return RedirectToAction("Index");
+            
+
         }
     }
 }

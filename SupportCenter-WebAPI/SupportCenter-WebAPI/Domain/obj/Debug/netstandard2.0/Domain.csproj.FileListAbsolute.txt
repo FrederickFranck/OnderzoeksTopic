@@ -1,0 +1,9 @@
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\bin\Debug\netstandard2.0\SC.BL.Domain.deps.json
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\bin\Debug\netstandard2.0\SC.BL.Domain.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\bin\Debug\netstandard2.0\SC.BL.Domain.pdb
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\SC.BL.Domain.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Domain\obj\Debug\netstandard2.0\SC.BL.Domain.pdb

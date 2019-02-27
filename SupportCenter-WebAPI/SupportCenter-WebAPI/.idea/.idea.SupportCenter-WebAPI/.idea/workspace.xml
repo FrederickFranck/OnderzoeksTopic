@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="003c6966-cb58-4e8e-b5b4-0342fdab7bc6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1976109840">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="13" />
+          <entry key="cshtml" value="13" />
+          <entry key="json" value="2" />
+          <entry key="resx" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="13" />
+          <entry key="JSON" value="2" />
+          <entry key="Razor" value="13" />
+          <entry key="Resources" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="435" />
+          <entry key="cshtml" value="678" />
+          <entry key="resx" value="690" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="435" />
+          <entry key="Razor" value="678" />
+          <entry key="Resources" value="690" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <marker date="1551262763525" expanded="true" signature="7:44" ph="..." />
+                <marker date="1551262763525" expanded="true" signature="62:3729" ph="&lt;html.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="69:893" ph="&lt;head.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="241:431" ph="&lt;environment.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="436:885" ph="&lt;environment.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="894:3721" ph="&lt;body.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="901:1928" ph="&lt;nav.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="958:1921" ph="&lt;div.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="990:1476" ph="&lt;div.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="1030:1354" ph="&lt;button.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="1485:1910" ph="&lt;div.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="1536:1878" ph="&lt;ul.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="1929:2285" ph="&lt;ul.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="2337:2496" ph="&lt;div.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="2419:2485" ph="&lt;footer.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="2502:2756" ph="&lt;environment.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="2761:3665" ph="&lt;environment.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="2805:3153" ph="&lt;script.../&gt;" />
+                <marker date="1551262763525" expanded="true" signature="3162:3571" ph="&lt;script.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI-MVC/Views/_ViewStart.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1551261382449" expanded="true" signature="0:28" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI-MVC/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <folding>
+                <marker date="1551264598382" expanded="true" signature="6:234" ph="..." />
+                <marker date="1551264598382" expanded="true" signature="271:1384" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="318:1382" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="361:408" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="446:566" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="606:710" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="750:797" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="928:1059" ph="{...}" />
+                <marker date="1551264598382" expanded="true" signature="1116:1376" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
+              <folding>
+                <marker date="1551259973132" expanded="true" signature="17:55" ph="@..." />
+                <marker date="1551259973132" expanded="true" signature="57:2469" ph="@*...*@" />
+                <marker date="1551259973132" expanded="true" signature="2470:2567" ph="&lt;div.../&gt;" />
+                <marker date="1551259973132" expanded="true" signature="2569:4860" ph="@*...*@" />
+                <marker date="1551259973132" expanded="true" signature="4861:5802" ph="&lt;div.../&gt;" />
+                <marker date="1551259973132" expanded="true" signature="4883:5106" ph="&lt;div.../&gt;" />
+                <marker date="1551259973132" expanded="true" signature="5111:5333" ph="&lt;div.../&gt;" />
+                <marker date="1551259973132" expanded="true" signature="5338:5795" ph="&lt;div.../&gt;" />
+                <marker date="1551259973132" expanded="true" signature="5512:5784" ph="&lt;form.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Resources.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1849">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <folding>
+                <marker date="1551260030024" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+                <marker date="1551260030024" expanded="true" signature="417:6272" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="451:565" ph="///   A strongly-typed resource class, for looking up localized strings, etc. ... " />
+                <marker date="1551260030024" expanded="true" signature="570:822" ph="/* This class was auto-generated by the StronglyTypedResourceBuilder ... */" />
+                <marker date="1551260030024" expanded="true" signature="1116:6270" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="1467:1478" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="1496:1610" ph="///   Returns the cached ResourceManager instance used by this class. ... " />
+                <marker date="1551260030024" expanded="true" signature="1816:2183" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="1834:2173" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="1899:2123" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="2201:2389" ph="///   Overrides the current thread's CurrentUICulture property for all ... " />
+                <marker date="1551260030024" expanded="true" signature="2587:2743" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="2605:2660" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="2677:2733" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="2761:2860" ph="///   Looks up a localized string similar to Over ons. ... " />
+                <marker date="1551260030024" expanded="true" signature="2896:3015" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="2914:3005" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3033:3135" ph="///   Looks up a localized string similar to AlleTickets. ... " />
+                <marker date="1551260030024" expanded="true" signature="3177:3302" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3195:3292" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3320:3454" ph="///   Looks up a localized string similar to Toont een lijst van alle bestaande tickets.. ... " />
+                <marker date="1551260030024" expanded="true" signature="3499:3627" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3517:3617" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3645:3743" ph="///   Looks up a localized string similar to Contact. ... " />
+                <marker date="1551260030024" expanded="true" signature="3781:3902" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3799:3892" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="3920:4016" ph="///   Looks up a localized string similar to Thuis. ... " />
+                <marker date="1551260030024" expanded="true" signature="4051:4169" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4069:4159" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4187:4290" ph="///   Looks up a localized string similar to Nieuw ticket. ... " />
+                <marker date="1551260030024" expanded="true" signature="4332:4457" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4350:4447" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4475:4607" ph="///   Looks up a localized string similar to Maak een nieuw ticket aan in het systeem.. ... " />
+                <marker date="1551260030024" expanded="true" signature="4652:4780" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4670:4770" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4798:4902" ph="///   Looks up a localized string similar to SupportCenter. ... " />
+                <marker date="1551260030024" expanded="true" signature="4946:5073" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="4964:5063" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5091:5194" ph="///   Looks up a localized string similar to Ticketnummer. ... " />
+                <marker date="1551260030024" expanded="true" signature="5237:5363" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5255:5353" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5381:5483" ph="///   Looks up a localized string similar to Toon ticket. ... " />
+                <marker date="1551260030024" expanded="true" signature="5524:5648" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5542:5638" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5666:5789" ph="///   Looks up a localized string similar to Geeft de details van één ticket.. ... " />
+                <marker date="1551260030024" expanded="true" signature="5833:5960" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5851:5950" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="5978:6107" ph="///   Looks up a localized string similar to Welkom op het online helpdesk systeem.. ... " />
+                <marker date="1551260030024" expanded="true" signature="6144:6264" ph="{...}" />
+                <marker date="1551260030024" expanded="true" signature="6162:6254" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Resources.en-us.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Resources.en.resx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1038">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI-MVC/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <folding>
+                <marker date="1551264271971" expanded="true" signature="6:363" ph="..." />
+                <marker date="1551264271971" expanded="true" signature="388:2071" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="415:2069" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="474:537" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="760:1276" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="833:1110" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="1464:2063" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="1511:1588" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="1605:1720" ph="{...}" />
+                <marker date="1551264271971" expanded="true" signature="1863:2051" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>culture</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-CA/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/Resources.en-us.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/Resources.en.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BL/TicketManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI-MVC/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UI-MVC/Resources/Resource.Designer.cs" />
+        <option value="$PROJECT_DIR$/Resources/Class1.cs" />
+        <option value="$PROJECT_DIR$/Resources/Resources.Designer.cs" />
+        <option value="$PROJECT_DIR$/Resources/Resources.nl.resx" />
+        <option value="$PROJECT_DIR$/UI-MVC/Resources/Resource.resx" />
+        <option value="$PROJECT_DIR$/Resources/Resources.en.resx" />
+        <option value="$PROJECT_DIR$/UI-MVC/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/UI-MVC/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Resources/Resources.resx" />
+        <option value="$PROJECT_DIR$/UI-MVC/Views/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/UI-MVC/Program.cs" />
+        <option value="$PROJECT_DIR$/UI-MVC/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/UI-MVC/Startup.cs" />
+        <option value="$PROJECT_DIR$/UI-MVC/Controllers/HomeController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1136" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources.en.resx" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources.resx" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-CA" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="SupportCenter-WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UI-MVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Ticket" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/UI-MVC/bin/Debug/netcoreapp2.1/SC.UI.Web.MVC.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI-MVC" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/UI-MVC/UI-MVC.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="003c6966-cb58-4e8e-b5b4-0342fdab7bc6" name="Default Changelist" comment="" />
+      <created>1550615718486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550615718486</updated>
+      <workItem from="1550615721256" duration="1352000" />
+      <workItem from="1551255384141" duration="9083000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10435000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1136" height="1047" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.232342" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.45050055" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5305895" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05970149" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.16409692" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33259177" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BL/TicketManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Home/About.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_CookieConsentPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550615647897" expanded="true" signature="0:39" ph="@..." />
+            <marker date="1550615647897" expanded="true" signature="99:231" ph="&lt;address.../&gt;" />
+            <marker date="1550615647897" expanded="true" signature="233:447" ph="&lt;address.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Privacy.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550615647905" expanded="true" signature="0:46" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_ValidationScriptsPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550615647906" expanded="true" signature="0:221" ph="&lt;environment.../&gt;" />
+            <marker date="1550615647906" expanded="true" signature="222:1153" ph="&lt;environment.../&gt;" />
+            <marker date="1550615647906" expanded="true" signature="262:656" ph="&lt;script.../&gt;" />
+            <marker date="1550615647906" expanded="true" signature="661:1138" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Resources/Resource.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Resources/Resource.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1551258038893" expanded="true" signature="7:48" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551261382449" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <marker date="1551262763525" expanded="true" signature="7:44" ph="..." />
+            <marker date="1551262763525" expanded="true" signature="62:3729" ph="&lt;html.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="69:893" ph="&lt;head.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="241:431" ph="&lt;environment.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="436:885" ph="&lt;environment.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="894:3721" ph="&lt;body.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="901:1928" ph="&lt;nav.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="958:1921" ph="&lt;div.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="990:1476" ph="&lt;div.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="1030:1354" ph="&lt;button.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="1485:1910" ph="&lt;div.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="1536:1878" ph="&lt;ul.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="1929:2285" ph="&lt;ul.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="2337:2496" ph="&lt;div.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="2419:2485" ph="&lt;footer.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="2502:2756" ph="&lt;environment.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="2761:3665" ph="&lt;environment.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="2805:3153" ph="&lt;script.../&gt;" />
+            <marker date="1551262763525" expanded="true" signature="3162:3571" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resources.en.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1038">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resources.en-us.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <marker date="1551261531449" expanded="false" signature="6:356" ph="..." />
+            <marker date="1551261531449" expanded="true" signature="381:707" ph="{...}" />
+            <marker date="1551261531449" expanded="true" signature="408:705" ph="{...}" />
+            <marker date="1551261531449" expanded="true" signature="461:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1849">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <marker date="1551260030024" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1551260030024" expanded="true" signature="417:6272" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="451:565" ph="///   A strongly-typed resource class, for looking up localized strings, etc. ... " />
+            <marker date="1551260030024" expanded="true" signature="570:822" ph="/* This class was auto-generated by the StronglyTypedResourceBuilder ... */" />
+            <marker date="1551260030024" expanded="true" signature="1116:6270" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="1467:1478" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="1496:1610" ph="///   Returns the cached ResourceManager instance used by this class. ... " />
+            <marker date="1551260030024" expanded="true" signature="1816:2183" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="1834:2173" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="1899:2123" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="2201:2389" ph="///   Overrides the current thread's CurrentUICulture property for all ... " />
+            <marker date="1551260030024" expanded="true" signature="2587:2743" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="2605:2660" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="2677:2733" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="2761:2860" ph="///   Looks up a localized string similar to Over ons. ... " />
+            <marker date="1551260030024" expanded="true" signature="2896:3015" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="2914:3005" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3033:3135" ph="///   Looks up a localized string similar to AlleTickets. ... " />
+            <marker date="1551260030024" expanded="true" signature="3177:3302" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3195:3292" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3320:3454" ph="///   Looks up a localized string similar to Toont een lijst van alle bestaande tickets.. ... " />
+            <marker date="1551260030024" expanded="true" signature="3499:3627" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3517:3617" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3645:3743" ph="///   Looks up a localized string similar to Contact. ... " />
+            <marker date="1551260030024" expanded="true" signature="3781:3902" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3799:3892" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="3920:4016" ph="///   Looks up a localized string similar to Thuis. ... " />
+            <marker date="1551260030024" expanded="true" signature="4051:4169" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4069:4159" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4187:4290" ph="///   Looks up a localized string similar to Nieuw ticket. ... " />
+            <marker date="1551260030024" expanded="true" signature="4332:4457" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4350:4447" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4475:4607" ph="///   Looks up a localized string similar to Maak een nieuw ticket aan in het systeem.. ... " />
+            <marker date="1551260030024" expanded="true" signature="4652:4780" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4670:4770" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4798:4902" ph="///   Looks up a localized string similar to SupportCenter. ... " />
+            <marker date="1551260030024" expanded="true" signature="4946:5073" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="4964:5063" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5091:5194" ph="///   Looks up a localized string similar to Ticketnummer. ... " />
+            <marker date="1551260030024" expanded="true" signature="5237:5363" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5255:5353" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5381:5483" ph="///   Looks up a localized string similar to Toon ticket. ... " />
+            <marker date="1551260030024" expanded="true" signature="5524:5648" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5542:5638" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5666:5789" ph="///   Looks up a localized string similar to Geeft de details van één ticket.. ... " />
+            <marker date="1551260030024" expanded="true" signature="5833:5960" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5851:5950" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="5978:6107" ph="///   Looks up a localized string similar to Welkom op het online helpdesk systeem.. ... " />
+            <marker date="1551260030024" expanded="true" signature="6144:6264" ph="{...}" />
+            <marker date="1551260030024" expanded="true" signature="6162:6254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-CA/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <marker date="1550615647858" expanded="false" signature="6:114" ph="..." />
+            <marker date="1550615647858" expanded="true" signature="134:5694" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="154:5692" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="382:456" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="496:1385" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="1092:1156" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="1188:1375" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="1433:2695" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="1727:2648" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="1828:2630" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="2742:2858" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="2913:3116" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="3179:3745" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="3802:4197" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="3928:4035" ph="/* IEnumerable&lt;TicketResponse&gt; responses = mgr.GetTicketResponses(input); ... */" />
+            <marker date="1550615647858" expanded="true" signature="4286:4395" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="4445:5240" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="4734:4864" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="5297:5686" ph="{...}" />
+            <marker date="1550615647858" expanded="true" signature="5521:5610" ph="/* mgr.AddTicketResponse(ticketNumber, response, false); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <marker date="1551264271971" expanded="true" signature="6:363" ph="..." />
+            <marker date="1551264271971" expanded="true" signature="388:2071" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="415:2069" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="474:537" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="760:1276" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="833:1110" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="1464:2063" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="1511:1588" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="1605:1720" ph="{...}" />
+            <marker date="1551264271971" expanded="true" signature="1863:2051" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
+          <folding>
+            <marker date="1551259973132" expanded="true" signature="17:55" ph="@..." />
+            <marker date="1551259973132" expanded="true" signature="57:2469" ph="@*...*@" />
+            <marker date="1551259973132" expanded="true" signature="2470:2567" ph="&lt;div.../&gt;" />
+            <marker date="1551259973132" expanded="true" signature="2569:4860" ph="@*...*@" />
+            <marker date="1551259973132" expanded="true" signature="4861:5802" ph="&lt;div.../&gt;" />
+            <marker date="1551259973132" expanded="true" signature="4883:5106" ph="&lt;div.../&gt;" />
+            <marker date="1551259973132" expanded="true" signature="5111:5333" ph="&lt;div.../&gt;" />
+            <marker date="1551259973132" expanded="true" signature="5338:5795" ph="&lt;div.../&gt;" />
+            <marker date="1551259973132" expanded="true" signature="5512:5784" ph="&lt;form.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-MVC/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <marker date="1551264598382" expanded="true" signature="6:234" ph="..." />
+            <marker date="1551264598382" expanded="true" signature="271:1384" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="318:1382" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="361:408" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="446:566" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="606:710" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="750:797" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="928:1059" ph="{...}" />
+            <marker date="1551264598382" expanded="true" signature="1116:1376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-CA", "UI-CA\UI-CA.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-MVC", "UI-MVC\UI-MVC.csproj", "{593D09AE-D7C6-48AF-B9EE-35C8D85AF374}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{F148F134-E474-48BB-8BDC-BA49CCCA79D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{593D09AE-D7C6-48AF-B9EE-35C8D85AF374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593D09AE-D7C6-48AF-B9EE-35C8D85AF374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593D09AE-D7C6-48AF-B9EE-35C8D85AF374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F148F134-E474-48BB-8BDC-BA49CCCA79D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F148F134-E474-48BB-8BDC-BA49CCCA79D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F148F134-E474-48BB-8BDC-BA49CCCA79D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F148F134-E474-48BB-8BDC-BA49CCCA79D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

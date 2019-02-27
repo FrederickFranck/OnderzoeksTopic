@@ -1,0 +1,15 @@
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\bin\Debug\netcoreapp2.1\Resources.deps.json
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\bin\Debug\netcoreapp2.1\Resources.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\bin\Debug\netcoreapp2.1\Resources.pdb
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.csprojAssemblyReference.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.Resources.resources
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.csproj.GenerateResource.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.csproj.CoreCompileInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.AssemblyInfoInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.AssemblyInfo.cs
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.pdb
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\bin\Debug\netcoreapp2.1\en\Resources.resources.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\Resources.Resources.en.resources
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\en\Resources.resources.cs
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\Resources\obj\Debug\netcoreapp2.1\en\Resources.resources.dll

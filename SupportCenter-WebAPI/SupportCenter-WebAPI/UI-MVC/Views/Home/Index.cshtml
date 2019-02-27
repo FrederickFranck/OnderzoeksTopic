@@ -1,4 +1,5 @@
-﻿@{
+﻿@using Resources
+@{
     ViewData["Title"] = "Welkom";
 }
 
@@ -53,8 +54,8 @@
     </a>
 </div>*@
 <div class="jumbotron">
-    <h1>SupportCenter</h1>
-    <p>Welkom op het online helpdesk systeem.</p>
+    <h1>@Resources.SupportCenter</h1>
+    <p>@Resources.Welkom</p>
 </div>
 
 @*<div class="row">
@@ -98,18 +99,18 @@
 </div>*@
 <div class="row">
     <div class="col-md-4">
-        <h2>Nieuw ticket</h2>
-        <p>Maak een nieuw ticket aan in het systeem.</p>
+        <h2>@Resources.NieuwTicket</h2>
+        <p>@Resources.NieuwTicketmsg</p>
         <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Create">Nieuw ticket</a>
     </div>
     <div class="col-md-4">
-        <h2>Alle tickets</h2>
-        <p>Toont een lijst van alle bestaande tickets.</p>
+        <h2>@Resources.AlleTickets</h2>
+        <p>@Resources.AlleTicketsmsg</p>
         <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Index">Alle tickets</a>
     </div>
     <div class="col-md-4">
-        <h2>Toon ticket</h2>
-        <p>Geeft de details van één ticket.</p>
+        <h2>@Resources.ToonTicket</h2>
+        <p>@Resources.ToonTicketmsg</p>
         @*<a class="btn btn-default" href="#">Toon ticket</a>*@
         <form asp-controller="Ticket" asp-action="Details" method="get" class="form-inline">
             <input name="id" type="number" placeholder="Ticketnummer" class="form-control"/>

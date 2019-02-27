@@ -1,0 +1,12 @@
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\bin\Debug\netstandard2.0\SC.DAL.deps.json
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\bin\Debug\netstandard2.0\SC.DAL.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\bin\Debug\netstandard2.0\SC.DAL.pdb
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\bin\Debug\netstandard2.0\SC.BL.Domain.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\bin\Debug\netstandard2.0\SC.BL.Domain.pdb
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\SC.DAL.dll
+F:\REPOS\OnderzoeksTopic\SupportCenter-WebAPI\SupportCenter-WebAPI\DAL\obj\Debug\netstandard2.0\SC.DAL.pdb

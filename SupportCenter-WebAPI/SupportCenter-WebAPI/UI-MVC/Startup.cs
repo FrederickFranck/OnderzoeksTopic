@@ -56,6 +56,7 @@ namespace SC.UI.Web.MVC
 
             app.UseMvc(routes =>
             {
+                
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
