@@ -1,7 +1,11 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using SC.BL;
 using SC.BL.Domain;
 using SC.UI.Web.MVC.Models;
@@ -12,18 +16,35 @@ namespace SC.UI.Web.MVC.Controllers.Api
     [Route("api/[controller]")]
     public class TicketResponsesController : ControllerBase
     {
-        private ITicketManager mgr = new TicketManager();
+        private ITicketManager mgr;
+        
+        private readonly IMemoryCache cache;
+
+        public TicketResponsesController(IMemoryCache cache)
+        {
+            mgr = new TicketManager();
+            this.cache = cache;
+        }
 
         // GET: api/TicketResponses?ticketNumber=5
         [HttpGet()]
         public IActionResult Get(int ticketNumber)
         {
-            var responses = mgr.GetTicketResponses(ticketNumber);
-
-            if (responses == null || !responses.Any())
-                return NoContent(); //of: StatusCode(StatusCodes.Status204NoContent);
-
-            return Ok(responses);
+            var cachkey = "ResponsesList";
+            IEnumerable<TicketResponse> responses;
+            if (cache.TryGetValue(cachkey, out responses))
+            {
+                Console.WriteLine("De Responses zijn gecached geladen");
+                return Ok(responses);
+            }
+            else
+            {
+                responses = mgr.GetTicketResponses(ticketNumber);
+                if (responses == null || !responses.Any())
+                    return NoContent(); //of: StatusCode(StatusCodes.Status204NoContent);
+                Console.WriteLine("De Responses zijn niet gecached geladen");
+                return Ok(responses);
+            }
         }
         
         // POST: api/TicketResponse

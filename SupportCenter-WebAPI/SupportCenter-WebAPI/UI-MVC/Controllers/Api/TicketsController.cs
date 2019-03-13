@@ -19,7 +19,7 @@ namespace SC.UI.Web.MVC.Controllers.Api
 
             if (ticket == null)
                 return NotFound();
-
+            UI.Web.MVC.Controllers.TicketController.previousTicket = null;
             ticket.State = TicketState.Closed;
             mgr.ChangeTicket(ticket);
             
