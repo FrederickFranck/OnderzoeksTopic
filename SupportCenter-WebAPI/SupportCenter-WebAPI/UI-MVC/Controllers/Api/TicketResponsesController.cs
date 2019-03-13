@@ -20,6 +20,8 @@ namespace SC.UI.Web.MVC.Controllers.Api
         
         private readonly IMemoryCache cache;
 
+        private static int? previousTicket = null;
+        
         public TicketResponsesController(IMemoryCache cache)
         {
             mgr = new TicketManager();
@@ -32,17 +34,20 @@ namespace SC.UI.Web.MVC.Controllers.Api
         {
             var cachkey = "ResponsesList";
             IEnumerable<TicketResponse> responses;
-            if (cache.TryGetValue(cachkey, out responses))
+            if (cache.TryGetValue(cachkey, out responses) && previousTicket == ticketNumber)
             {
-                Console.WriteLine("De Responses zijn gecached geladen");
+                Console.WriteLine("DE RESPONSES ZIJN GECACHED GELADEN");
+                previousTicket = ticketNumber;
                 return Ok(responses);
             }
             else
             {
                 responses = mgr.GetTicketResponses(ticketNumber);
+                cache.Set(cachkey, responses);
                 if (responses == null || !responses.Any())
                     return NoContent(); //of: StatusCode(StatusCodes.Status204NoContent);
-                Console.WriteLine("De Responses zijn niet gecached geladen");
+                Console.WriteLine("DE RESPONSES ZIJN NIET GECACHED GELADEN");
+                previousTicket = ticketNumber;
                 return Ok(responses);
             }
         }

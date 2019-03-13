@@ -30,7 +30,7 @@ namespace SC.UI.Web.MVC.Controllers
         {
             var cachKey = "TicketList";
             IEnumerable<Ticket> tickets;
-            if (cache.TryGetValue(cachKey, out tickets) /*&& !TicketsChanged*//*&& !cacheTicketsChanged*/)
+            if (cache.TryGetValue(cachKey, out tickets))
             {
                 ViewBag.CacheTest = "Dit is gecashed";
                 return View(tickets);
@@ -62,13 +62,7 @@ namespace SC.UI.Web.MVC.Controllers
                 cache.Set(cachKey, ticket);
                 ViewBag.CacheTest = "Dit is niet gecashed";
             }
-            
-            
-            /*if (ticket.Responses != null)
-                ViewBag.Responses = ticket.Responses;
-            else*/
-                
-            
+                        
             previousTicket = id;
             
             return View(ticket);
