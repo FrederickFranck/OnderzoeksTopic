@@ -1,17 +1,18 @@
 @model SC.BL.Domain.Ticket
+@using Resources
 
 <dl class="dl-horizontal">
-    <dt>Id</dt><dd>@Model.TicketNumber</dd>
-    <dt>Account</dt><dd>@Model.AccountId</dd>
-    <dt>Probleem</dt><dd>@Model.Text</dd>
-    <dt>Aangemaakt op</dt><dd>@Model.DateOpened</dd>
-    <dt>Status</dt>
+    <dt>@Resources.Id</dt><dd>@Model.TicketNumber</dd>
+    <dt>@Resources.AccountID</dt><dd>@Model.AccountId</dd>
+    <dt>@Resources.Probleem</dt><dd>@Model.Text</dd>
+    <dt>@Resources.Aangemaakt</dt><dd>@Model.DateOpened</dd>
+    <dt>@Resources.Status</dt>
     <dd>
         @*@Model.State*@
         <span id="state">@Model.State</span>
         @if (Model.State != SC.BL.Domain.TicketState.Closed)
         {
-            <button type="button" onclick="closeTicket(@Model.TicketNumber)">Close</button>
+            <button type="button" onclick="closeTicket(@Model.TicketNumber)">@Resources.Sluit</button>
         }
     </dd>
 </dl>

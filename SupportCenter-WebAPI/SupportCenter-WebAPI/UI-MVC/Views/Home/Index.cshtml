@@ -1,7 +1,4 @@
 ﻿@using Resources
-@{
-    ViewData["Title"] = "Welkom";
-}
 
 @*<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
@@ -55,7 +52,7 @@
 </div>*@
 <div class="jumbotron">
     <h1>@Resources.SupportCenter</h1>
-    <p>@Resources.Welkom</p>
+    <p>@Resources.WelkomMsg</p>
 </div>
 
 @*<div class="row">
@@ -100,21 +97,21 @@
 <div class="row">
     <div class="col-md-4">
         <h2>@Resources.NieuwTicket</h2>
-        <p>@Resources.NieuwTicketmsg</p>
-        <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Create">Nieuw ticket</a>
+        <p>@Resources.NieuwTicketMsg</p>
+        <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Create">@Resources.NieuwTicket</a>
     </div>
     <div class="col-md-4">
         <h2>@Resources.AlleTickets</h2>
-        <p>@Resources.AlleTicketsmsg</p>
-        <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Index">Alle tickets</a>
+        <p>@Resources.AlleTicketsMsg</p>
+        <a class="btn btn-default" @*href="#"*@ asp-controller="Ticket" asp-action="Index">@Resources.AlleTickets</a>
     </div>
     <div class="col-md-4">
         <h2>@Resources.ToonTicket</h2>
-        <p>@Resources.ToonTicketmsg</p>
+        <p>@Resources.ToonTicketMsg</p>
         @*<a class="btn btn-default" href="#">Toon ticket</a>*@
         <form asp-controller="Ticket" asp-action="Details" method="get" class="form-inline">
-            <input name="id" type="number" placeholder="Ticketnummer" class="form-control"/>
-            <input type="submit" value="Toon ticket" class="btn btn-default"/>
+            <input name="id" type="number" placeholder=@Resources.Ticketnummer class="form-control"/>
+            <input type="submit" value=@Resources.ToonTicket class="btn btn-default"/>
         </form>
     </div>
 </div>

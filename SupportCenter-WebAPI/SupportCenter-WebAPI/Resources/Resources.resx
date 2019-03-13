@@ -35,6 +35,9 @@
 
     <!--Index-->
     <data name="Welkom">
+        <value>Welkom</value>
+    </data>
+    <data name="WelkomMsg">
         <value>Welkom op het online helpdesk systeem.</value>
     </data>
 
@@ -42,7 +45,7 @@
         <value>Nieuw ticket</value>
     </data>
 
-    <data name="NieuwTicketmsg">
+    <data name="NieuwTicketMsg">
         <value>Maak een nieuw ticket aan in het systeem.</value>
     </data>
 
@@ -50,7 +53,7 @@
         <value>AlleTickets</value>
     </data>
 
-    <data name="AlleTicketsmsg">
+    <data name="AlleTicketsMsg">
         <value>Toont een lijst van alle bestaande tickets.</value>
     </data>
 
@@ -58,12 +61,145 @@
         <value>Toon ticket</value>
     </data>
 
-    <data name="ToonTicketmsg">
+    <data name="ToonTicketMsg">
         <value>Geeft de details van één ticket.</value>
     </data>
 
     <data name="Ticketnummer">
         <value>Ticketnummer</value>
     </data>
+    
+    <!--About-->
+
+    <data name="AboutDesc">
+        <value>Uw pagina met de beschrijving van de toepassing.</value>
+    </data>
+
+    <data name="AboutDesc2">
+        <value>Gebruik dit veld om aanvullende informatie te verstrekken.</value>
+    </data>
+    
+    <!--Contact-->
+
+    <data name="ContactDesc">
+        <value>Uw contact pagina.</value>
+    </data>
+    
+    <!--Create Ticket -->
+
+    <data name="TicketAanmaken">
+        <value>Ticket aanmaken.</value>
+    </data>
+
+    <data name="AccountID">
+        <value>Account-id</value>
+    </data>
+
+    <data name="Probleem">
+        <value>Probleem</value>
+    </data>
+
+    <data name="Verzenden">
+        <value>Verzenden</value>
+    </data>
+
+    <data name="Anuleer">
+        <value>Anuleer</value>
+    </data>
+    
+    <!--Delete Ticket-->
+
+    <data name="VerwijderTicket">
+        <value>Ticket verwijderen</value>
+    </data>
+
+    <data name="VerwijderTicketMsg">
+        <value>Ben je zeker dat je onderstaand ticket wenst te verwijderen?</value>
+    </data>
+
+    <data name="Verwijderen">
+        <value>Verwijderen</value>
+    </data>
+    
+    <!--Index Ticket-->
+
+    <data name="Tickets">
+        <value>Tickets</value>
+    </data>
+
+    <data name="Nummer">
+        <value>Nummer</value>
+    </data>
+
+    <data name="Account">
+        <value>Account</value>
+    </data>
+ 
+    <data name="Aangemaakt">
+        <value>Aangemaakt op</value>
+    </data>
+
+    <data name="Status">
+        <value>Status</value>
+    </data>
+
+    <data name="Details">
+        <value>Details</value>
+    </data>
+
+    <data name="Bewerk">
+        <value>Bewerk</value>
+    </data>
+    
+    <!--Edit Ticket -->
+
+    <data name="Ticketwijzigen">
+        <value>Ticket wijzigen</value>
+    </data>
+
+    <data name="Id">
+        <value>Id</value>
+    </data>
+   
+    <data name="Opslaan">
+        <value>Opslaan</value>
+    </data>
+
+    <!-- ticket details -->
+
+    <data name="Ticket">
+        <value>Ticket</value>
+    </data>
+
+    <data name="Lijst">
+        <value>Lijst</value>
+    </data>
+
+    <data name="Responses">
+        <value>Responses</value>
+    </data>
+
+    <data name="HerlaadAntwoorden">
+        <value>(Her)laad antwoorden</value>
+    </data>
+
+    <data name="Antwoord">
+        <value>Antwoord</value>
+    </data>
+
+    <data name="Datum">
+        <value>Datum</value>
+    </data>
+
+    <data name="KlantAntwoord">
+        <value>Klant antwoord?</value>
+    </data>
+    
+    <!--Ticket details partial -->
+    
+  <data name="Sluit">
+        <value>Sluit</value>
+    </data>
+    
     
 </root>

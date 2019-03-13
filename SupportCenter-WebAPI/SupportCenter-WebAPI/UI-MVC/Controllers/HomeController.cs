@@ -5,6 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using SC.UI.Web.MVC.Models;
 
@@ -45,10 +46,9 @@ namespace SC.UI.Web.MVC.Controllers
         public IActionResult SetCulture(string culture){
             CultureInfo ci = CultureInfo.GetCultureInfo(culture);
             Resources.Resources.Culture = ci;
+            return Redirect(Request.Headers["Referer"].ToString());
             
-            Console.WriteLine(CultureInfo.CurrentCulture.Name);
-            return RedirectToAction("Index");
-            
+
 
         }
     }

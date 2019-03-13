@@ -1,11 +1,12 @@
 @using SC.BL.Domain
 @model SC.BL.Domain.Ticket
+@using Resources
 
 @{
-    ViewBag.Title = "Ticket";
+    ViewBag.Title = @Resources.Ticket;
 }
 
-<h2>Ticket</h2>
+<h2>@Resources.Ticket</h2>
 
 @*<dl class="dl-horizontal">
     <dt>Id</dt><dd>@Model.TicketNumber</dd>
@@ -16,13 +17,13 @@
 </dl>*@
 <partial name="_TicketDetailsPartial" for="@Model"/>
 
-<a asp-action="Edit" asp-route-id="@Model.TicketNumber">Bewerk</a> | <a asp-action="Index">Lijst</a>
+<a asp-action="Edit" asp-route-id="@Model.TicketNumber">@Resources.Bewerk</a> | <a asp-action="Index">@Resources.Lijst</a>
 
-<h3>Responses</h3>
-<p><button class="btn btn-default" onclick="loadResponsesOfTicket(@Model.TicketNumber)">(Her)laad antwoorden</button></p>
+<h3>@Resources.Responses</h3>
+<p><button class="btn btn-default" onclick="loadResponsesOfTicket(@Model.TicketNumber)">@Resources.HerlaadAntwoorden</button></p>
 <table id="responses" class="table">
     <tr>
-        <th>Antwoord</th><th>Datum</th><th>Klant antwoord?</th>
+        <th>@Resources.Antwoord</th><th>@Resources.Datum</th><th>@Resources.KlantAntwoord</th>
     </tr>
     @foreach (TicketResponse response in (IEnumerable<TicketResponse>) ViewBag.Responses)
     {
@@ -32,7 +33,7 @@
     }
 </table>
 <input id="responseText" name="responseText" type="text" style="margin-right: 5px" />
-<button type="button" onclick="postResponse()">Verzenden</button>
+<button type="button" onclick="postResponse()">@Resources.Verzenden</button>
 
 
 @section Scripts

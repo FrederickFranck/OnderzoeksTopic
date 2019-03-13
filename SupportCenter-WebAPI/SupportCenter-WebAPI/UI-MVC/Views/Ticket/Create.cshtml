@@ -1,19 +1,20 @@
 @model SC.UI.Web.MVC.Models.CreateTicketViewModel
+@using Resources
 
 @{
     ViewBag.Title = "Ticket aanmaken";
 }
 
-<h2>Ticket aanmaken</h2>
+<h2>@Resources.TicketAanmaken</h2>
 
 <form asp-controller="Ticket" asp-action="Create" method="post">
     <div class="form-group">
-        <label @*for="accId"*@asp-for="AccId">Account-id</label>
+        <label @*for="accId"*@asp-for="AccId">@Resources.AccountID</label>
         <input @*id="accId" name="accId" type="number"*@asp-for="AccId" class="form-control"/>
     </div>
     <div class="form-group">
-        <label @*for="problem"*@asp-for="Problem">Probleem</label>
+        <label @*for="problem"*@asp-for="Problem">@Resources.Probleem</label>
         <input @*id="problem" name="problem" type="text"*@asp-for="Problem" class="form-control"/>
     </div>
-    <input type="submit" value="Verzenden"/> | <a asp-action="Index">Annuleer</a>
+    <input type="submit" value=@Resources.Verzenden> | <a asp-action="Index">@Resources.Anuleer</a>
 </form>
