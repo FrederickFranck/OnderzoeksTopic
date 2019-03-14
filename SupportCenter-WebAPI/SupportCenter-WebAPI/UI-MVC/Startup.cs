@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -50,6 +52,17 @@ namespace SC.UI.Web.MVC
                 app.UseHsts();
             }
 
+            var supportedCultures = new[]{
+                new CultureInfo("nl-BE"),
+                new CultureInfo("en-US")
+            };
+            
+            app.UseRequestLocalization(new RequestLocalizationOptions{
+                DefaultRequestCulture = new RequestCulture("nl-BE"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
