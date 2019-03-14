@@ -13,6 +13,7 @@ namespace SC.UI.Web.MVC.Controllers
 {
     public class HomeController : Controller
     {
+        
         public IActionResult Index()
         {
             return View();
