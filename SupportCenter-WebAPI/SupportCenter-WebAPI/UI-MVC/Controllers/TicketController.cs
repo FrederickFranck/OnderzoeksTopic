@@ -17,7 +17,6 @@ namespace SC.UI.Web.MVC.Controllers
         private readonly IMemoryCache cache;
 
         internal static int? previousTicket = null;
-        internal static bool stateChanged = false;
 
         public TicketController(IMemoryCache memoryCache)
         {
@@ -31,19 +30,18 @@ namespace SC.UI.Web.MVC.Controllers
         {
             var cachKey = "TicketList";
             IEnumerable<Ticket> tickets;
-            if (cache.TryGetValue(cachKey, out tickets) && !stateChanged)
+            if (cache.TryGetValue(cachKey, out tickets))
             {
                 ViewBag.CacheTest = "Dit is gecashed";
+                return View(tickets);
             }
             else
             {
                 tickets = mgr.GetTickets();
                 cache.Set(cachKey, tickets);
                 ViewBag.CacheTest = "Dit is niet gecashed";
+                return View(tickets);
             }
-
-            stateChanged = false;
-            return View(tickets);
         }
 
         // GET: /Ticket/Details/<ticket_number>
@@ -102,6 +100,7 @@ namespace SC.UI.Web.MVC.Controllers
         public IActionResult Create( /*int accId, string problem*/ CreateTicketViewModel createTicket)
         {
             Ticket newTicket = mgr.AddTicket( /*accId*/createTicket.AccId, /*problem*/createTicket.Problem);
+            cache.Remove("TicketList");
             return RedirectToAction("Details", new {id = newTicket.TicketNumber});
         }
 

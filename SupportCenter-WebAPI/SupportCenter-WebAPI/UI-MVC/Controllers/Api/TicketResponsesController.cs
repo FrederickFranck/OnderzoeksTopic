@@ -37,6 +37,8 @@ namespace SC.UI.Web.MVC.Controllers.Api
             if (cache.TryGetValue(cachkey, out responses) && previousTicket == ticketNumber)
             {
                 Console.WriteLine("DE RESPONSES ZIJN GECACHED GELADEN");
+                previousTicket = ticketNumber;
+                return Ok(responses);
             }
             else
             {
@@ -44,10 +46,10 @@ namespace SC.UI.Web.MVC.Controllers.Api
                 cache.Set(cachkey, responses);
                 if (responses == null || !responses.Any())
                     return NoContent(); //of: StatusCode(StatusCodes.Status204NoContent);
-                Console.WriteLine("DE RESPONSES ZIJN NIET GECACHED GELADEN");  
+                Console.WriteLine("DE RESPONSES ZIJN NIET GECACHED GELADEN");
+                previousTicket = ticketNumber;
+                return Ok(responses);
             }
-            previousTicket = ticketNumber;
-            return Ok(responses);
         }
         
         // POST: api/TicketResponse
