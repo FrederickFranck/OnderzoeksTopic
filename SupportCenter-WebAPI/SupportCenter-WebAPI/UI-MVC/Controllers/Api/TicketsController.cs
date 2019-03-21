@@ -19,7 +19,8 @@ namespace SC.UI.Web.MVC.Controllers.Api
 
             if (ticket == null)
                 return NotFound();
-            UI.Web.MVC.Controllers.TicketController.previousTicket = null;
+            TicketController.previousTicket = null;
+            TicketController.StateChanged = true;
             ticket.State = TicketState.Closed;
             mgr.ChangeTicket(ticket);
             
